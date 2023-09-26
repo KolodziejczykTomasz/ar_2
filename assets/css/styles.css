@@ -34,22 +34,118 @@
     border: 1px solid orange;
 }
 
+.col {
+    border: 1px solid blueviolet;
+    flex: 1 0 0%;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
 body {
     font-family: var(--font-family-inter);
-    margin: 0 auto;
-    width: 100%;
+    margin: 0 auto;    
     max-width: 1600px;
+    width: 100%;
     border-left: 2px solid greenyellow;
     border-right: 2px solid greenyellow;
-    min-height: 100vh;
+    min-height: 100vh; 
 }
+
+.subtitle {
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+}
+
 
 header {
     height: 921.518px;
     background: linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);;
 }
 
-#about {
-    height: 765.48px;
-    border-bottom: 2px solid olivedrab;
+.navbar {
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+
+#about {
+    margin-top: 140.48px;
+    margin-left: -93px;
+    height: 765.48px;
+    max-width: 1600px;  
+}
+
+.about-image {
+    width: 873px; 
+    height: 625px; 
+    overflow: hidden; 
+}
+
+.about-content {
+    padding-top: 91px;
+    width: 727px; 
+    height: 625px;  
+}
+
+.about-text {
+    height: 114px;
+    width: 508px;
+    margin-left: 30px;
+}
+
+.about-list-item__ttile { 
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;    
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-list-item__desc {    
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    width: 367px;
+}
+
+.about-list-item__icon {
+    margin-top: 18px;
+    margin-right: 18px;
+   
+}
+
+.about-list-item__icon img {
+    margin-top: 18px;
+    width: 24px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#about ul {
+    list-style: none;
+}
+
+@media only screen and (max-width: 978px) {
+    .about-wrapper {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .about-wrapper div {
+        width: 100%;
+    }
+  }
+
+  #Services p {
+    width: 549px;
+    height: 114px;
+  }

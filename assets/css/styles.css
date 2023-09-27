@@ -61,6 +61,13 @@ body {
     line-height: 130%; 
 }
 
+.subheading {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
 
 header {
     height: 921.518px;
@@ -149,3 +156,70 @@ header {
     width: 549px;
     height: 114px;
   }
+
+#Services {
+    width: 1600px;
+    min-height: 546px;
+    flex-shrink: 0;
+}
+  
+  .services-item {
+    width: 262px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 5px rgba(6, 14, 26, 0.05);
+  }
+
+  .services-item__image img {
+    margin: 40px 57px 50px 56px;
+
+}
+
+.services-item__title {
+    color: black;
+    width: 213px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0 auto 10px auto;
+}
+
+.services-item__desc {
+    color: #51565E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 213px;
+    margin: 0 auto 20px auto;
+}
+  .services-item button {
+    border: none;
+    background-color: transparent;
+}
+
+#Pricing {
+    margin-top: 143px;
+}
+
+ .form-check-input:checked{   
+    border-radius: 20px;
+
+    border: 1px solid #42B4EE;   
+    width: 83px;
+    height: 33px;      
+}
+
+.form-check-input:not(checked) {   
+    border-radius: 20px;
+    border: 1px solid #42B4EE;   
+    width: 83px;
+    height: 33px;      
+}

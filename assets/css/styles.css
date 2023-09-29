@@ -90,7 +90,7 @@ header {
 }
 
 
-#about {
+#About {
     margin-top: 140.48px;
     margin-left: -93px;
     height: 765.48px; 
@@ -147,7 +147,7 @@ header {
     flex-shrink: 0;
 }
 
-#about ul {
+#About ul {
     list-style: none;
 }
 
@@ -177,6 +177,10 @@ header {
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 6px 50px 5px rgba(6, 14, 26, 0.05);
+  }
+  .services-item:first-child {
+  background: var(--white, #FFF);
+  box-shadow: 0px 2px 4px 0px #5B1FB0;
   }
 
   .services-item__image img {
@@ -343,4 +347,93 @@ input[type=checkbox]{
     border-image-slice: 10;
     border-style: solid; 
   }
-  
+#Testimonials {
+    margin-top: 142px;
+}
+  .testimonials-subtitle {
+    color: var(--Black, #051114);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+  }
+
+  .testimonials-item {
+    width: 360px;
+    height: 291px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 4px 50px 5px rgba(5, 17, 20, 0.05);
+  }
+
+  .testimonials-item:first-child {
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 4px 0px #5B1FB0;
+  }
+
+  .testimonials-item__desc {
+    width: 200px;
+    height: 76px;
+    color: var(--Black, #051114);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 160%;
+    margin: 60px auto 25px 90px;
+  }
+
+  .testimonials-item__title {
+    color: var(--Black, #051114);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+  }
+
+  .testimonials-item__subtitle {
+    color: var(--Black, #051114);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 20px;
+  }
+
+  .testimonials-item__image img {
+    margin-left: 57px;
+  }
+
+  .news-item {
+    width: 555px;
+    height: 650px;
+    border-radius: 10px;
+    border: 2px solid rgba(5, 17, 20, .2);
+    
+  }
+
+  .news-item__button {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.7px;
+    border-radius: 5px;
+    background: var(--Primary, #42B4EE);
+    border: none;
+  }

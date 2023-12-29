@@ -12,15 +12,17 @@
 </head>
 <body id="home" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <header>
-      <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="border: 2px solid green;">
-          <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+      <nav id="navbar-example2" class="navbar navbar-expand-lg">
+          <div class="navbar-container">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/img/hero/Group 368.svg" alt="" />
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" style="border: 2px solid red;"id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="border: 2px solid green;">
-                <li class="nav-item">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
@@ -37,12 +39,21 @@
                 </li>
               </ul>
               <div class="d-flex">                  
-                <button class="btn btn-outline-success">FREE TRIAL</button>
+                <button class="navbar-button">FREE TRIAL</button>
               </div>
             </div>
           </div>
       </nav>
       <div class="hero">
+        <div class="hero-content">
+          <p class="hero-title">Codext one of the best system in SAAS.</p>
+          <p class="hero-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A nulla nulla etiam turpis quam diam et. 
+            Arcu nisi, sed aenean sit nisl.</p>
+            <button class="hero-button">Try A Live Demo</button>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/img/hero/Group 396_hero.svg" alt=""/>
+        </div>
       </div>
     </header>
     <main style="overflow: hidden">
@@ -273,29 +284,33 @@
           </div>
           <div class="d-flex" style="gap:30px; width: 1140px; height: auto; flex-direction: row; flex-wrap: nowrap; margin: 0 auto">
             <div class="news-item">
-              <div>img</div>
-              <div class="d-flex flex-row" style="gap: 60px">
-                <div>Our Creative Team</div>
+              <div class="news-image">
+                <img src="./assets/img/news/Rectangle 33.svg" alt="" />
+              </div>
+              <div class="d-flex flex-row news-details" style="gap: 60px; margin-left: 30px;">
+                <div style="font-size: 16px;">Our Creative Team</div>
                 <div>17 June, 2021</div>
                 <div>by Stive Smithi</div>
               </div>
-              <div>
-                <p>Running remote offsites and onbordings</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat fermentum, enim vel adipiscing non. Lacus, nunc, at et vel 
+              <div style="margin-left: 30px;">
+                <p class="news-title">Running remote offsites and onbordings</p>
+                <p class="news-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat fermentum, enim vel adipiscing non. Lacus, nunc, at et vel 
                   tellus dignissim quis.</p>
                 <button class="news-item__button">Continue</button>
               </div>
             </div>
             <div class="news-item">
-              <div>img</div>
-              <div class="d-flex flex-row" style="gap: 60px">
-                <div>Create presentations</div>
+              <div class="news-image">
+                <img src="./assets/img/news/Rectangle 33 (1).svg" alt="" />
+              </div>
+              <div class="d-flex flex-row news-details" style="gap: 60px; margin-left: 30px;">
+                <div style="font-size: 16px;">Create presentations</div>
                 <div>17 June, 2021</div>
                 <div>by Thomas lews</div>
               </div>
-              <div>
-                <p>A new look & new ways to collaborate</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat fermentum, enim vel adipiscing non. Lacus, nunc, at et vel 
+              <div style="margin-left: 30px;">
+                <p class="news-title">A new look & new ways to collaborate</p>
+                <p class="news-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat fermentum, enim vel adipiscing non. Lacus, nunc, at et vel 
                   tellus dignissim quis.</p>
                 <button class="news-item__button">Continue</button>
               </div>
@@ -304,12 +319,57 @@
         </section>
     </main>
     <footer>
-      <div class="container" style="height: 100vh;">
-        <div class="row">
+      <div style=" height: 504px; width: 1600px">
+        <div class="d-flex flex-row justify-content-between" style="width: 1140px; height: 410px; margin: 0 auto;">
+          <div style="width: 288px; height: 230px; margin-top: 100px;">
+            <img src="./assets/img/footer/Group 369.svg" alt="" />
+          <div>
+            <div>
+              <div class="footer-text-about">
+                Lorem ipsum dolor sit amet, consect
+                etur adipiscing elit. Ullamcorper purus eleifend purus faucibus faucibus.
+              </div>          
+              <div class="d-flex flex-row justify-content-between opacity-100" style="width: 239px; height: 41px; margin-top: 30px;">
+                <div><img src="./assets/img/footer/Group 351_1.svg" alt=""/></div>
+                <div><img src="./assets/img/footer/Group 352_2.svg" alt=""/></div>
+                <div><img src="./assets/img/footer/Group 353_3.svg" alt=""/></div>
+                <div><img src="./assets/img/footer/Group 360_4.svg" alt=""/></div>
 
+              </div>
+            </div>
+          </div>
+          </div>
+          <div style="width: 115px; height: 207px; margin-top: 100px;">
+            <p class="footer-title">Resources</p>
+            <ul>
+              <li>services</li>
+              <li>Pricing</li>
+              <li>Testimonials</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div style="width: 157px; height: 207px; margin-top: 100px;">
+            <p class="footer-title">Usefull links</p>
+            <ul>
+              <li>Terms of Services</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+              <li>Contact us </li>
+            </ul>
+          </div>
+          <div style="width: 306px; height: 194px; margin-top: 100px;">
+            <p class="footer-title">Newsletter</p>
+            <p class="footer-subtitle">Sign up and receive the lastest news via email.</p>
+            <div class="input-group">
+              <input type="email" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2">Send</span>
+            </div>
+          </div>        
+        </div>        
+        <div class="d-flex" style=" margin: 0 auto; justify-content: center; width: 1140px; height: 94px; border-top: 1px solid rgba(255, 255, 255, .2);">
+          <div class="footer-copyright">Copyright 2021 The Codext  All Rights Reserved.</div>
         </div>
       </div>
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
